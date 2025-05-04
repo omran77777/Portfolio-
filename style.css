@@ -286,7 +286,19 @@ section {
         font-size: 1.4em;
     }
 }
-
+.max {
+border-radius = 50px;
+background-color:#8BC34A;
+border:none;
+width: 50px;
+}
+.max :hover{
+  color:yellow;
+  transform: 3s;
+  transition-duration: 1.50px;
+  color: gold;
+  width:25px;
+}
 @media (max-width:300px){
     body{
         font-size: 10px;
